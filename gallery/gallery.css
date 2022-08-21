@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1500px;
+    min-height: 100vh;
+    font-family: 'open-sans', sans-serif;
+    margin: 0px auto;
+}
+
+/* header */
+.main-header {
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-parent {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-navigation {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+}
+
+.main-navigation_items {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-navigation-item {
+    list-style: none;
+}
+.main-navigation-item a {
+    text-decoration: none;
+    margin: 0px 30px;
+    font-size: 20px;
+    color: #2F3037;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.number {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-number_icon, .green-number_icon a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 5px;
+    color: #26ABA3;
+}
+.green-number_icon a i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #26ABA3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+/* /header */
+/* gallery banner */
+.gallery-banner, .gallery-banner img {
+    width: 100%;
+    height: 150px;
+}
+/* /gallery banner */
+/* section */
+.main-section {
+    width: 100%;
+    height: 970px;
+    display: flex;
+    margin: 50px 0px;
+}
+/* main section left */
+.main-section_left {
+    width: 70%;
+    height: 100%;
+}
+
+.section-image_top {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-image_bottom {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-image_bottom img {
+    margin: 0px 10px;
+}
+/* /main section left */
+/* main section right */
+.main-section_right {
+    width: 30%;
+    height: 100%;
+}
+.section-right_image {
+    width: 100%;
+    height: 100%;
+}
+.section-right_image img {
+    margin: 10px 0px;
+}
+/* /main section right */
+/* /seection */
+
+/* footer */
+.main-footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #26ABA3;
+}
+
+hr {
+    width: 1300px;
+}
+
+.footer-container {
+    width: 90%;
+    height: 100%;
+}
+
+.footer-middle {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-navigation {
+    width: 60%;
+    height: 100%;
+}
+.footer-navigation_item-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-navigation_items, .footer-navigation_items a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.footer-icon {
+    width: 330px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-items, .icon-items a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.icon-items a i {
+    width: 35px;
+    height: 35px;
+    background-color: #F7AB1E;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-end {
+    width: 100%;
+    height: 50%;
+}
+
+.footer-linc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-linc a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+/* /footer */

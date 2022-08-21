@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1500px;
+    min-height: 100vh;
+    font-family: 'open-sans', sans-serif;
+    margin: 0px auto;
+}
+/* header */
+.main-header {
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-parent {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-navigation {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+}
+
+.main-navigation_items {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-navigation-item {
+    list-style: none;
+}
+.main-navigation-item a {
+    text-decoration: none;
+    margin: 0px 30px;
+    font-size: 20px;
+    color: #2F3037;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.number {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-number_icon, .green-number_icon a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+.green-number_icon a i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #26ABA3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+/* /header */
+/* services banner */
+.services-banner, .services-banner img {
+    width: 100%;
+    height: 180px;
+}
+/* /services banner */
+/* services card */
+.main-offer {
+    width: 100%;
+    height: 1250px;
+    background-color: #F4FCFA;
+    margin: 50px 0px;
+}
+
+.offer-text {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.offer-text h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #293039;
+    line-height: 50px;
+}
+.offer-text p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #51565D;
+}
+
+.card-parent {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-card_top {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px 0px;
+}
+.offer-card_bottom {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.offer-card_1, .offer-card_2, .offer-card_3 {
+    width: 450px;
+    height: 430px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(43, 171, 160, 0.07);
+    border-radius: 24px;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+}
+
+.box h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #293039;
+    line-height: 60px;
+}
+
+.box p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.box a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #26ABA3;
+    text-decoration: none;
+}
+/* /services card */
+/* thorapy */
+.main-thorapy {
+    width: 100%;
+    height: 900px;
+    background-color: #F4FCFA;
+    display: flex;
+}
+
+/* theraphy left */
+.main-thorapy_left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thorapy-parent {
+    width: 690px;
+    height: 635px;
+}
+
+.therapy-text {
+    width: 100%;
+    height: 200px;
+}
+.therapy-text h2 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50px;
+    color: #293039;
+}
+
+.therapy-text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #51565D;
+}
+
+.therapy-card {
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.therapy-card_left, .therapy-card_right {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+.left-card_top, .left-card_bottom, .right-card_top, .right-card_bottom {
+    width: 100%;
+    height: 45%;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(43, 171, 160, 0.07);
+}
+
+.thoraphy-card_icon {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+.thoraphy-card_icon img {
+    margin: 0px 0px 0px 40px;
+}
+.thoraphy-card_icon h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0px 15px;
+}
+.thoraphy-card_text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+/* /theraphy left */
+/* theraphy right */
+.main-theraphy_right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.theraphy-right_image, .theraphy-right_image img {
+    width: 662px;
+    height: 728px;
+}
+/* /theraphy right */
+/* /thorapy */
+/* process */
+.main-process {
+    width: 100%;
+    height: 473px;
+    background-color: #ffffff;
+    margin: 50px 0px;
+}
+
+.main-process_text {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.main-process_text h2 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50px;
+    color: #293039;
+}
+
+.main-process_text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #51565D;
+}
+
+.process-static {
+    width: 100%;
+    height: 323px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.process-static_card {
+    width: 330px;
+    height: 250px;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    box-shadow: 0px 8px 30px rgba(43, 171, 160, 0.07);
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.static-card_location {
+    width: 300px;
+    height: 220px;
+}
+
+.static-card_location h1 {
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 70px;
+    color: #C1E3DE;
+}
+.static-card_location h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    color: #293039;
+}
+.static-card_location p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #51565D;
+}
+/* /process */
+/* pricing */
+.main-pricing {
+    width: 100%;
+    height: 1000px;
+    background-color: #F4FCFA;
+    margin: 100px 0px;
+}
+
+.pricing-text {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+.pricing-text h2 {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 50px;
+}
+.pricing-text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+/* pricing cards */
+.pricing-card_parent {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-card_1, .pricing-card_2, .pricing-card_3 {
+    width: 400px;
+    height: 500px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(43, 171, 160, 0.07);
+    margin: 0px 20px;
+    border-radius: 30px;
+    transition: transform 1s;
+}
+.pricing-card_1:hover, .pricing-card_2:hover, .pricing-card_3:hover {
+    transform: translateY(-70px);
+}
+
+.pricing-card_header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pricing-card_header h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #293039;
+}
+.pricing-card_header h1 {
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 60px;
+    color: #26ABA3;
+}
+
+.pricing-card_list {
+    width: 100%;
+    height: 400px;
+}
+.pricing-list {
+    width: 50%;
+    height: 80%;
+    margin: 20px 0px 0px 120px;
+}
+.pricing-list li {
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #293039;
+}
+.pricing-list button {
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #26ABA3;
+    color: #FFFFFF;
+    border: none;
+    position: relative;
+    right: 10px;
+}
+/* /pricing cards */
+/* /pricing */
+/* services contact */
+.services-contact {
+    width: 100%;
+    height: 786px;
+    display: flex;
+}
+.services-contact_left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-image_container {
+    width: 500px;
+    height: 600px;
+    background-color: #FEF3DE;
+}
+.services-image_container img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 40px;
+    bottom: 50px;
+}
+
+.services-contact_right {
+    width: 50%;
+    height: 100%;
+}
+
+.services-contact_text {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+}
+.services-contact_text h2 {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 50px;
+    color: #293039;
+}
+.services-contact_parent {
+    width: 100%;
+    height: 436px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.contact-right {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+    margin-bottom: 80px;
+}
+
+.contact-left label, .contact-right label {
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 18px;
+    color: #51565D;
+    margin: 0px 10px;
+    text-transform: uppercase;
+}
+
+.contact-left input, .contact-right input {
+    width: 300px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 0px 20px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.contact-left button {
+    width: 200px;
+    height: 40px;
+    background-color: #26ABA3;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    margin: 20px 0px;
+}
+/* /services contact */
+
+/* footer */
+.main-footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #26ABA3;
+}
+
+hr {
+    width: 1300px;
+}
+
+.footer-container {
+    width: 90%;
+    height: 100%;
+}
+
+.footer-middle {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-navigation {
+    width: 60%;
+    height: 100%;
+}
+.footer-navigation_item-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-navigation_items, .footer-navigation_items a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.footer-icon {
+    width: 330px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-items, .icon-items a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.icon-items a i {
+    width: 35px;
+    height: 35px;
+    background-color: #F7AB1E;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-end {
+    width: 100%;
+    height: 50%;
+}
+
+.footer-linc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-linc a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+/* /footer */

@@ -1,0 +1,729 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1500px;
+    min-height: 100vh;
+    font-family: 'open-sans', sans-serif;
+    margin: 0px auto;
+}
+/* header */
+.main-header {
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-parent {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.main-navigation {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+}
+
+.main-navigation_items {
+    width: 800px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-navigation-item {
+    list-style: none;
+}
+.main-navigation-item a {
+    text-decoration: none;
+    margin: 0px 30px;
+    font-size: 20px;
+    color: #2F3037;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.number {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-number_icon, .green-number_icon a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+.green-number_icon a i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #26ABA3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+/* /header */
+/* despression banner */
+.despression-banner, .despression-banner img {
+    width: 100%;
+    height: 180px;
+}
+/* /despression banner */
+/* despression player */
+.despression-player {
+    width: 100%;
+    height: 1010px;
+    margin: 100px 0px 20px 0px;
+    background-color: #ffffff;
+}
+
+.despression-player-text_1 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.despression-text h2 {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 50px;
+    color: #293039;
+}
+.despression-text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #51565D;
+}
+
+/* despression player image */
+.main-player {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.despression-bottom_text {
+    width: 100%;
+    height: 309px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.despression-text_bottom p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #51565D;
+}
+/* /despression player image */
+/* /despression player */
+
+/* despression carousel */
+.despressin-carousel {
+    width: 100%;
+    height: 408px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* carousel left */
+.carousel-left_parent, .carousel-right_parent {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-text {
+    width: 100%;
+    height: 40px;
+}
+.carousel-text p {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #293039;
+}
+
+.main-carousel {
+    width: 500px;
+    height: 300px;
+    background: #f7f7f7;
+    box-shadow: 0px 8px 30px rgba(43, 171, 160, 0.07);
+    border-radius: 24px;
+
+}
+
+.carousel-body {
+    width: 100%;
+    height: 260px;
+    display: flex;
+}
+
+.carousel-icon {
+    width: 80px;
+    height: 260px;
+}
+.carousel-icon img {
+    width: 80px;
+    height: 80px;
+}
+.carousel-icon h1 {
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #26ABA3;
+}
+.carousel-info {
+    width: 400px;
+    height: 250px;
+    margin: 0px 20px 0px 30px;
+}
+
+.carousel-info h3 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #293039;
+}
+
+.linc-1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 48px;
+    color: #26ABA3;
+    text-decoration: none;
+}
+
+.carousel-info p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #51565D;
+}
+
+.linc-2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 58px;
+    color: #26ABA3;
+    text-decoration: none;
+}
+/* /carousel left */
+/* /despression player */
+/* despression info */
+.despression-info {
+    width: 100%;
+    height: 372px;
+    background-color: #FFFFFF;
+}
+
+.despression-top_text {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.despression-top_text h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #293039;
+}
+.despression-top_text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #51565D;
+}
+.despression-middle_text {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.location-2 {
+    width: 830px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.location-2 li {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #51565D;
+}
+
+.despression-end_text {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.despression-end_text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #51565D;
+}
+/* /despression info */
+/* despression card */
+.main-card {
+    width: 100%;
+    height: 700px;
+    background-color: #f7f7f7;
+    margin: 100px 0px;
+}
+
+.offer-text {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.offer-text h2 {
+    font-size: 42px;
+    font-weight: 800;
+    color: #293039;
+    line-height: 50px;
+}
+.offer-text p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #51565D;
+}
+
+.card-parent {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-card_top {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px 0px;
+}
+
+.offer-card_1, .offer-card_2, .offer-card_3 {
+    width: 450px;
+    height: 430px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(43, 171, 160, 0.07);
+    border-radius: 24px;
+    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+}
+
+.box h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #293039;
+    line-height: 60px;
+}
+
+.box p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.box a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #26ABA3;
+    text-decoration: none;
+}
+
+.card-button {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-button button {
+    width: 200px;
+    height: 40px;
+    background-color: #26ABA3;
+    color: #FFFFFF;
+    border-radius: 24px;
+    border: none;
+}
+/* /despression card */
+
+/* despression stages */
+.main-stages {
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+
+.stages-left {
+    width: 50%;
+    height: 100%;
+}
+
+.stages-text {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.stages-text h2 {
+    color: #293039;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.stages-card {
+    width: 100%;
+    height: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stages-card_left, .stages-card_right {
+    width: 50%;
+    height: 100%;
+}
+
+.stages-left_top_card, .stages-left_bottom_card, .stages-right_top_card, .stages-right_bottom_card {
+    width: 300px;
+    height: 250px;
+    box-shadow: 0px 8px 30px rgba(43, 171, 160, 0.07);
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 50px 0px 0px 50px;
+    border-radius: 30px;
+    justify-content: center;
+}
+.stages-left_top_card h1, .stages-left_bottom_card h1, .stages-right_top_card h1, .stages-right_bottom_card h1 {
+    color: #C1E3DE;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 100px;
+}
+
+.stages-left_top_card h2, .stages-left_bottom_card h2, .stages-right_top_card h2, .stages-right_bottom_card h2 {
+    font-size: 24px;
+    color: #293039;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.stages-left_top_card p, .stages-left_bottom_card p, .stages-right_top_card p, .stages-right_bottom_card p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #51565D;
+}
+
+.stages-right {
+    width: 50%;
+    height: 100%;
+}
+
+.stages-right_top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.stage-square_right {
+    width: 40%;
+    height: 450px;
+    background-color: #FEF3DE;
+    position: relative;
+    top: 50px;
+    right: 75px;
+}
+
+.stages-right_bottom {
+    width: 100%;
+    height: 50%;
+}
+.stage-square_right_bottom {
+    width: 40%;
+    height: 450px;
+    background-color: #FEF3DE;
+    position: relative;
+    bottom: 200px;
+    left: 75px;
+}
+
+.right-bottom_image {
+    position: relative;
+    left: 30px;
+    border-bottom-right-radius: 100px;
+}
+
+.left-image {
+    border-top-left-radius: 100px;
+    position: relative;
+    bottom: 70px;
+}
+
+.bottom-left_image {
+    position: relative;
+    bottom: 70px;
+    left: 30px;
+}
+/* /despression stages */
+
+/* despression contact info */
+.despression-contact_info {
+    width: 100%;
+    height: 432px;
+}
+
+.contact-info_text {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-info_text h1 {
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 50px;
+    color: #293039;
+}
+
+.contact-info_text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.contact-card_parent {
+    width: 100%;
+    height: 282px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-card_1, .contact-card_2, .contact-card_3, .contact-card_4 {
+    width: 330px;
+    height: 263px;
+    background: #F4FCFA;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px;
+    transition: background-color 0.5s;
+}
+
+.contact-card_1:hover, .contact-card_2:hover, .contact-card_3:hover, .contact-card_4:hover {
+    background-color: #26ABA3;
+}
+.contact-card_body {
+    width: 300px;
+    height: 233px;
+}
+.contact-card_1:hover a i, .contact-card_2:hover a i, .contact-card_3:hover a i, .contact-card_4:hover a i {
+    color: white;
+}
+
+.contact-card_body a {
+    text-decoration: none;
+}
+
+.contact-card_body a i {
+    font-weight: 900;
+    font-size: 47px;
+    line-height: 60px;
+    color: #26ABA3;
+}
+
+.contact-card_body h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 50px;
+    color: #293039;
+}
+
+.contact-card_body h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 38px;
+    color: #51565D;
+}
+/* /despression contact info */
+
+/* despression footer */
+.main-footer {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    background-color: #26ABA3;
+}
+
+hr {
+    width: 1300px;
+}
+
+.footer-container {
+    width: 90%;
+    height: 100%;
+}
+
+.footer-middle {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 220px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-navigation {
+    width: 60%;
+    height: 100%;
+}
+.footer-navigation_item-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-navigation_items, .footer-navigation_items a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 20px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.footer-icon {
+    width: 330px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-items, .icon-items a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.icon-items a i {
+    width: 35px;
+    height: 35px;
+    background-color: #F7AB1E;
+    color: #FFFFFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-end {
+    width: 100%;
+    height: 50%;
+}
+
+.footer-linc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-linc a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+/* /despression footer */
